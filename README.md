@@ -13,6 +13,6 @@
 <ul>
   <li>Improve responsive web design principles</li>
   <li>Utilize all the API data provided by financialmodelingprep</li>
-  <li>Transition it to ReactJS framework</li>
+  <li>Transition to ReactJS framework</li>
 </ul>  
   
