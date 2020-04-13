@@ -1,6 +1,6 @@
 ﻿# Financial-Modeling-Prep-API
 <h1>About</h1>
-<p>Project for CISC 3140.I am utilizing API by <a href="https://financialmodelingprep.com/">https://financialmodelingprep.com/</a> to fetch and display data using vanilla JS.</p>
+<p>Project for CISC 3140. I am utilizing API by <a href="https://financialmodelingprep.com/">https://financialmodelingprep.com/</a> to fetch and display data using vanilla JS.</p>
 <p>Currently I am accepting user input depending on stock symbol, rendering stock name, price, listed stock exchange, description and website. Background turns red or green depending if stock is negative or positive for current day.</p>
 <img src="https://raw.githubusercontent.com/amalTash/Financial-Modeling-Prep-API/master/demo.png">
 <h1>Installation</h1>
