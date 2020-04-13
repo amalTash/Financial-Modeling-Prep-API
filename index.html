@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Finance Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="column" id="leftCol">
+            <h1 class="titleHead"> Stock Exchange Info Card</h1>
+            <h2 class="subHead">Generate the most accurate financial data out there in a form of a card. Just enter ticker symbol
+                for example Apple - <b>AAPL</b>
+            </h2>
+            <input type="text" id="uInput">
+            <button onclick="fetchSymbol()">Generate Card</button>
+            <div class="createdBy">
+                <h4>Created by: Amal Tashmatov for CISC 3140, Brooklyn College</h4>
+            </div>
+        </div>
+        <div class="column" id="rightCol">
+            <div id="infoCard">
+                <h1 id="cardTitle"></h1>
+                <h2 id="exchangeName"></h2>
+                <h2 id="changePer"></h2>
+                <p id="aboutSec"></p>
+                <h2 id="website"></h2>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

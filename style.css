@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;900&family=Roboto:wght@100;300;400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 30px;
+    height: 100%;
+}
+#leftCol{
+    background-color: #481380;
+    padding: 115px;
+}
+#rightCol{
+    background-color: #efb1ff;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.titleHead{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: 50px;
+    color: whitesmoke;
+}
+.subHead{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+input{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    transition: 0.7s;
+    outline: none;
+    margin-top: 20px;
+    background-color: #481380;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+input:focus{
+    border: 2px solid #77d8d8;
+}
+button{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+}
+button:hover{
+    background-color: #77d8d8;
+}
+.createdBy{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-top: 30%;
+    color: white;
+}
+#infoCard{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    margin-top: 150px;
+}
+#cardTitle{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+#exchangeName{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#changePer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#aboutSec{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 5px;
+    padding: 20px;
+}
+#website{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 50px;
+}
+@media screen and (max-width: 600px){
+    .column{
+        width: 100%;
+    }
+}
